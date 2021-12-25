@@ -28,3 +28,4 @@ RUN  wget https://storage.googleapis.com/kubernetes-release/release/$(curl -s ht
 # See https://github.com/kubernetes/minikube/issues/956.
 # THIS IS FOR MINIKUBE TESTING ONLY - it is not production standard (we're running as root!)
 RUN chown -R root "$JENKINS_HOME" /usr/share/jenkins/ref
+
